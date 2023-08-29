@@ -559,10 +559,6 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -655,9 +651,14 @@ video {
   border-bottom-width: 1px;
 }
 
-.border-lightGrayText {
+.border-darkGreyishBlue {
   --tw-border-opacity: 1;
   border-color: hsl(228 12% 44% / var(--tw-border-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-lightBg {
@@ -673,11 +674,6 @@ video {
 .bg-lightToggle {
   --tw-bg-opacity: 1;
   background-color: hsl(230 22% 74% / var(--tw-bg-opacity));
-}
-
-.bg-darkBg {
-  --tw-bg-opacity: 1;
-  background-color: hsl(230 17% 14% / var(--tw-bg-opacity));
 }
 
 .from-InstagramOne {
@@ -731,20 +727,8 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-\[50px\] {
-  padding-top: 50px;
-}
-
-.pb-\[50px\] {
-  padding-bottom: 50px;
-}
-
-.pb-\[30px\] {
-  padding-bottom: 30px;
-}
-
-.pb-\[80px\] {
-  padding-bottom: 80px;
+.pt-\[30px\] {
+  padding-top: 30px;
 }
 
 .text-center {
@@ -789,12 +773,12 @@ video {
   color: hsl(163 72% 41% / var(--tw-text-opacity));
 }
 
-.text-lightGrayText {
+.text-darkGreyishBlue {
   --tw-text-opacity: 1;
   color: hsl(228 12% 44% / var(--tw-text-opacity));
 }
 
-.text-lightMainTextCol {
+.text-veryDarkBlue {
   --tw-text-opacity: 1;
   color: hsl(230 17% 14% / var(--tw-text-opacity));
 }
@@ -933,12 +917,6 @@ video {
   content: var(--tw-content);
   --tw-translate-x: 100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.peer:checked ~ .peer-checked\:after\:bg-lightBg::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
 .peer:checked ~ .peer-checked\:after\:bg-darkBg::after {

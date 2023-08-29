@@ -31,8 +31,8 @@ module.exports = {
         "lightTopBg": "hsl(225, 100%, 98%)",
         "lightCardBg": "hsl(227, 47%, 96%)",
         "lightCardHoverBg": "hsl(232, 33%, 91%)",
-        "lightGrayText": "hsl(228, 12%, 44%)",
-        "lightMainTextCol": "hsl(230, 17%, 14%)"
+        "darkGreyishBlue": "hsl(228, 12%, 44%)",
+        "veryDarkBlue": "hsl(230, 17%, 14%)"
     },
   }
 },
